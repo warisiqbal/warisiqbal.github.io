@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar1 {
+    background-color: black;
+}
+
+.logo {
+    color: brown;
+}
+
+.logo h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sub-heading {
+    margin-top: 20px;
+}
+
+/* .nav-list {
+    display: flex;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.nav-list ul li {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.button1 {
+    color: white;
+    border-color: brown;
+}
+
+.button {
+    margin-top: 20px;
+    display: block;
+    margin-left: 30px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+} */
+.nav-list ul li {
+    padding-left: 30px;
+}
+
+.nav-list ul li a {
+    color: white;
+}
+
+.button1 {
+    color: white;
+    border-color: brown;
+}
+
+.button {
+
+    display: block;
+
+}
+
+.background {
+
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    display: flex;
+    opacity: 0.9;
+
+
+}
+
+.heading1 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bottom {
+
+    height: 130px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    /* background-color: white; */
+}
+
+#progressBar {
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songItems{
+    height: 50px;
+    display: flex;
+    width: 35%;
+    /* color: white;  */
+    margin: 12px 0;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    opacity: 0.9;
+}
+
+.songItems img
+{
+    width: 40px;
+    margin: 0 23px;
+}
+
+.songTitle
+{
+    margin-right: 40px;
+}
+
+.songPlay i 
+{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.songInfo
+{
+    
+    margin-top: 7vh;
+}
+
+.songInfo img
+{
+    width: 70px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in ;
+}
+
